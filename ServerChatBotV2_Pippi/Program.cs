@@ -97,6 +97,7 @@ namespace ServerChatBotV2_Pippi
                                 sendString = "Non ho capito";
                                 break;
                         }
+
                         Array.Clear(buff, 0, buff.Length);
                         sendedBytes = 0;
                         // lo converto in byte
