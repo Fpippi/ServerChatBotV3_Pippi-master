@@ -53,6 +53,7 @@ namespace ServerChatBotV2_Pippi
                 string receivedString, sendString = "";
 
 
+
                 while (true)
                 {
                     receivedBytes = client.Receive(buff);
